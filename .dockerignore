@@ -1,0 +1,35 @@
+# Node modules
+**/node_modules
+
+# Git files
+.git
+.gitignore
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+**/build
+**/dist
+
+# Data files
+backend/uploads/*
+backend/exports/*
+/data/db/*
+
+# Add exceptions to preserve directory structure
+!backend/uploads/.gitkeep
+!backend/exports/.gitkeep
+
+# Editor directories
+.idea
+.vscode 
